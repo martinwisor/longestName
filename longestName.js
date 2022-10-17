@@ -16,6 +16,8 @@ if (name1.length > name2.length && name1.length > name3.length) {
   console.log(`${name1} and ${name2} tie for the longest name.`);
 } else if (name3.length === name1.length && name3.length != name2.length) {
   console.log(`${name1} and ${name3} tie for the longest name.`);
+} else {
+  console.log(`${name2} and ${name3} tie for the longest name`);
 }
 
 // tried a switch statement but it would log all options
